@@ -1,0 +1,138 @@
+body{
+  background-color: black;
+  color: white;
+  font-family: Verdana;
+}
+
+.button{
+  text-decoration: none;
+  color: white;
+  background-color:  #242F9B;
+  padding: 20px;
+  border-radius: 10px;
+  display: block;
+  width: 285px;
+  margin-bottom: 20px;
+  text-align: center;
+  margin-left: 40%;
+}
+
+.button:hover{
+  background-color: #68A7AD;
+}
+
+h1{
+  font-size: 30px;
+  display: block;
+  text-align: center;
+  margin-left: 5%;
+}
+
+.me{
+  margin-left: 32%;
+  display: inline-block;
+}
+
+.nav{
+  width: 100%;
+  background-color: #242F9B;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.nav a{
+  color: white;
+  text-decoration:none;
+  text-align: center;
+  font-weight: bold;
+  padding: 10px;
+  display: inline-block;
+}
+
+.nav a:hover{
+  background-color: #68A7AD;
+  border-radius: 10px;
+}
+
+h2{
+  color: #81C6E8;
+  text-align: center;
+  font-size: 35px;
+  padding-top: 70px;
+}
+
+p{
+  font-size: 20px;
+}
+
+.personal_details p{
+  text-align: center;
+}
+
+/* .personal_details{
+  border-bottom: 2px solid #242F9B;
+}
+
+.about_me{
+    border-bottom: 2px solid #242F9B;
+} */
+
+.about_me p{
+  text-align: center;
+}
+
+.experience{
+    /* border-bottom: 2px solid #242F9B; */
+    list-style-position: inside;
+    text-align: center;
+}
+
+.experience li{
+  font-weight: bold;
+}
+
+.experience h3{
+    text-align: center;
+    text-decoration: underline;
+    font-size: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.language{
+  /* border-bottom: 2px solid #242F9B; */
+  text-align: center;
+  align-items: center;
+
+}
+
+.language_arrange p{
+  display: inline-block;
+  text-decoration: underline;
+}
+
+.progress label{
+  display: inline;
+  padding: 10px;
+}
+
+.education{
+  /* border-bottom: 2px solid #242F9B; */
+    text-align: center;
+    list-style-position: inside;
+}
+
+.education p{
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+.interest{
+    /* border-bottom: 2px solid #242F9B; */
+    text-align: center;
+    list-style-position: inside;
+}
+
+.interest li{
+  font-weight: bold;
+}
